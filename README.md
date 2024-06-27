@@ -1,7 +1,7 @@
 # Course Map
 
 ## College Course Map Application
-This project is a college course map built with C# and ASP.net. Based on ERD specifications, I created model classes and setting up database context for the database generation. Once seeded added DB integrity constraints and validation requirements to the models. After I scaffoled pages for each model I completed page alterations such as, modify the default get query so that courses are displayed by Course Code in ascending order, as well as decorating the columns. The next step was adding User capability, by adding code to the pages so that they are only accessible by a logged in user and forces you to the login page if the user is not logged in. Finally, upon finishing up some added page functionality I deployed my application to Azure.
+This project is a college course map built with C# and ASP.net. Based on ERD specifications, I created model classes and setting up database context for the database generation. Once seeded, added DB integrity constraints and validation requirements to the models leveraging the Entity Framework. After I scaffoled pages for each model I completed page alterations such as, modify the default get query so that courses are displayed by Course Code in ascending order, as well as decorating the columns. The next step was adding User capability, by adding code to the pages so that they are only accessible by a logged in user and forces you to the login page if the user is not logged in. Finally, upon finishing up some added page functionality I deployed my application to Azure.
 
  ## Features 
 - Register user capability
@@ -13,6 +13,7 @@ This project is a college course map built with C# and ASP.net. Based on ERD spe
 ## Technologies Used
 - C#
 - ASP.NET
+- Entity Framework
 - Azure
 - Bootstrap
  
@@ -20,7 +21,7 @@ This project is a college course map built with C# and ASP.net. Based on ERD spe
 - This was my first experience with C# and ASP.NET so it was great to get a taste of this language and framework.
 - I practiced my ability to create models from an ERD along with navigation properities, and setting up the database context class.
 - I learned about migrations and their functionality in creating a database.
-- I worked on adding data annotations, database integrity and validation requirements.
+- I worked on adding data annotations, database integrity, and validation requirements by using Entity Framework, a really cool way to interact with the data without getting bogged down by complexities.
 - Once my models were set up to spec I scaffoled out pages using ASP.NET.
 - I learned how to make page alterations by adjusting queries in my pages to display specific data in a specific fashion. I also adjusted the output of the HTML for the CRUD pages.
 
